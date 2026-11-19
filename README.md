@@ -2,7 +2,7 @@
 
 A backend service that aggregates hotel offers from multiple suppliers, deduplicates hotels, selects the cheapest offer, and supports Redis-based price filtering.
 
-Built as part of the Tripare.ai Senior Software Engineer - Full Stack assignment.
+Hotel Offer Orchestrator assignment implementation.
 
 ## Tech Stack
 
@@ -88,7 +88,7 @@ src/
 └── worker.ts
 
 postman/
-└── Tripare-Hotel-Offer-Orchestrator.postman_collection.json
+└── Hotel-Offer-Orchestrator.postman_collection.json
 
 Dockerfile
 docker-compose.yml
@@ -110,7 +110,7 @@ The application dependencies are installed inside the Docker image, so Node.js i
 Clone the repository:
 
 ```bash
-git clone https://github.com/tariqaziz123/tripale-hotel-orchestrator.git
+git clone https://github.com/shreyashgupta1703/hotel-offer-orchestrator.git
 cd tripale-hotel-orchestrator
 ```
 
@@ -311,7 +311,7 @@ The orchestrator therefore selects:
 A Postman collection is included at:
 
 ```text
-postman/Tripare-Hotel-Offer-Orchestrator.postman_collection.json
+postman/Hotel-Offer-Orchestrator.postman_collection.json
 ```
 
 The collection covers:
@@ -393,7 +393,7 @@ npm run build
 Import the collection:
 
 ```text
-postman/Tripare-Hotel-Offer-Orchestrator.postman_collection.json
+postman/Hotel-Offer-Orchestrator.postman_collection.json
 ```
 
 The default base URL is:
